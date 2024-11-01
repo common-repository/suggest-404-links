@@ -1,0 +1,90 @@
+/*
+ * plugin stylesheet
+ */
+
+.suggest_404_links-widget {
+    display: block;
+    position: relative;
+    clear: both;
+}
+.suggest_404_links-widget > div {
+    display: block;
+    position: relative;
+    max-width: 80%;
+    margin: 3em auto;
+    padding: 1em;
+    background: #f2f2f2;
+    text-align: left;
+}
+.suggest_404_links-widget h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1em;
+    color: #666;
+}
+
+.suggest_404_links-widget ul {
+    margin: 8px 0 0 32px;
+    padding: 0;
+}
+
+.suggest_404_links-widget li {
+    display: block;
+    margin: 0 0 0 1em;
+    padding: 8px 0;
+    clear: both;
+}
+
+.suggest_404_links-widget img {
+    height: 48px;
+    float: left;
+    margin-right: 8px;
+}
+
+.suggest_404_links-widget a {
+    display: block;
+    margin: 0;
+    padding: 2px 0 4px 0;
+    font-size: 20px;
+    line-height: 22px;
+    color: #45c;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.suggest_404_links-widget a:hover {
+    text-decoration: underline;
+}
+
+.suggest_404_links-widget span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #888;
+    font-size: 12px;
+    line-height: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.suggest_404_links-widget-no-links div {
+    color: #888;
+}
+
+.suggest_404_links blockquote {
+    border: 1px dashed silver;
+}
+
+@media (max-width:600px) {
+    .suggest_404_links-widget h2 {
+        font-size: 22px;
+    }
+    .suggest_404_links-widget ul {
+        margin: 0;
+    }
+}

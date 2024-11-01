@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "tekod/suggest404links",
+    "title": "Block with links similar to current URL",
+    "category": "widgets",
+    "icon": "admin-links",
+    "version": "1.0.0",
+    "textdomain": "suggest-404-links",
+    "attributes": {
+		"alignment": {
+            "type": "string",
+            "default": "none"
+        }
+    },
+	"supports": {
+		"color": true
+	},
+    "editorScript": "404-block"
+}
